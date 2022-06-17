@@ -1,0 +1,18 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "api-orce-uni"
+version = "0.1.0"
+[tool.poetry.dependencies]
+bs4 = "^0.0.1"
+python = "^3.8"
+termcolor = "^1.1"
+Flask = "^2.1.2"
+tabula-py = "^2.4.0"
+ftfy = "^6.1.1"
+[tool.poetry.dev-dependencies]
